@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:padding="16dp"
-                android:text="Team A"
+                android:text="@string/team_a"
                 android:fontFamily="sans-serif-medium"
                 android:textColor="#616161"
                 android:textSize="14sp"
@@ -66,7 +66,7 @@
                 android:textSize="30sp"
                 android:textColor="#000000"
                 android:gravity="center_horizontal"
-               android:padding="10dp"
+                android:padding="10dp"
                 android:text="-" />
 
             <Button
@@ -75,7 +75,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginEnd="24dp"
                 android:onClick="goalsTeamA"
-                android:text="Goal" />
+                android:text="@string/goal" />
 
             <Button
                 android:layout_width="match_parent"
@@ -84,7 +84,7 @@
                 android:layout_marginEnd="24dp"
                 android:padding="8dp"
                 android:onClick="foulsTeamA"
-                android:text="Foul" />
+                android:text="@string/foul" />
 
             <Button
                 android:layout_width="match_parent"
@@ -92,7 +92,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginEnd="24dp"
                 android:onClick="cornersTeamA"
-                android:text="Corner" />
+                android:text="@string/corner" />
 
         </LinearLayout>
 
@@ -120,7 +120,7 @@
                 android:textColor="#616161"
                 android:textSize="14sp"
                 android:textStyle="bold"
-                android:text="Team B" />
+                android:text="@string/team_b" />
 
             <TextView
                 android:id="@+id/team_b_goals"
@@ -168,7 +168,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginEnd="24dp"
                 android:onClick="goalsTeamB"
-                android:text="Goal" />
+                android:text="@string/goal" />
 
             <Button
                 android:layout_width="match_parent"
@@ -177,7 +177,7 @@
                 android:layout_marginEnd="24dp"
                 android:padding="8dp"
                 android:onClick="foulsTeamB"
-                android:text="Foul" />
+                android:text="@string/foul" />
 
             <Button
                 android:layout_width="match_parent"
@@ -185,7 +185,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginEnd="24dp"
                 android:onClick="cornersTeamB"
-                android:text="Corner" />
+                android:text="@string/corner" />
 
         </LinearLayout>
 
@@ -198,6 +198,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
         android:onClick="resetTeamAB"
-        android:text="Reset" />
+        android:text="@string/reset" />
 
 </RelativeLayout>
